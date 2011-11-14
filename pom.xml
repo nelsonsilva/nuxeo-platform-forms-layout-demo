@@ -12,6 +12,7 @@
   <artifactId>nuxeo-platform-forms-layout-demo</artifactId>
   <name>Nuxeo forms layout demo addon</name>
   <description>Addon defining sample widgets for demo and tests.</description>
+  <version>5.4.2-NXP-7832-GA-stats</version>
 
   <properties>
     <nuxeo.version>${pom.version}</nuxeo.version>
