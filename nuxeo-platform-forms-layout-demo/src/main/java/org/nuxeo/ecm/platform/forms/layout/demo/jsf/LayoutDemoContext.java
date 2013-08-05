@@ -182,6 +182,9 @@ public class LayoutDemoContext implements Serializable {
             doc.setPropertyValue("lds:selectVocabularyField", "cartman");
             doc.setPropertyValue("lds:selectMultiVocabularyField",
                     new String[] { "cartman", "marsh" });
+            doc.setPropertyValue("selectSelect2DirectoryField", "africa/Botswana");
+            doc.setPropertyValue("lds:selectSelect2DirectoryMultiField",
+                    new String[] { "art/art history","art/culture","sciences/logic" });
             doc.setPropertyValue("lds:dateField", Calendar.getInstance());
             doc.setPropertyValue("lds:intField", new Integer(666));
             doc.setPropertyValue("lds:booleanField", Boolean.FALSE);
@@ -222,6 +225,9 @@ public class LayoutDemoContext implements Serializable {
             doc.setPropertyValue("lds:selectVocabularyField", "marsh");
             doc.setPropertyValue("lds:selectMultiVocabularyField",
                     new String[] { "cartman" });
+            doc.setPropertyValue("selectSelect2DirectoryField", "africa/Botswana");
+            doc.setPropertyValue("lds:selectSelect2DirectoryMultiField",
+                    new String[] { "art/art history","art/culture","sciences/logic" });
             doc.setPropertyValue("lds:dateField", Calendar.getInstance());
             doc.setPropertyValue("lds:intField", new Integer(667));
             doc.setPropertyValue("lds:booleanField", Boolean.TRUE);
